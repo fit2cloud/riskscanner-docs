@@ -15,7 +15,6 @@ RiskScanner 安全合规能力：
 ![产品的功能域能力](./img/intro/产品的功能域能力.png)
 
 
-
 ## 技术栈
 
 - 后端: [Spring Boot](https://www.tutorialspoint.com/spring_boot/spring_boot_introduction.htm)
@@ -23,4 +22,6 @@ RiskScanner 安全合规能力：
 - 数据库: [MySQL](https://www.mysql.com/)
 - 基础设施: [Docker](https://www.docker.com/)
 
+## 微信群
 
+![wechat-group](./img/quickstart/group.png)
