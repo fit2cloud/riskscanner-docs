@@ -12,15 +12,15 @@
 curl -sSL https://github.com/RiskScanner/riskscanner/releases/latest/download/quick_start.sh | sh
 ```
 
-#### 二、Release 安装
- 获取 release 离线安装包(x.x.x 为版本号)
+#### 二、Release 在线安装
+ 获取 release 在线安装包(x.x.x 为版本号)
  
 ```sh
-# 下载github release离线安装包
+# 下载 github release 在线安装包
 # 解压安装包
-tar zxvf riskscanner-release-x.x.x-offline.tar.gz
+tar zxvf riskscanner-release-x.x.x.tar.gz
 # 进入解压包
-cd riskscanner-release-x.x.x-offline
+cd riskscanner-release-x.x.x
 # 执行脚本
 ./install.sh
 # 查看运行状态
@@ -31,7 +31,7 @@ rsctl status
  获取 OSS 离线安装包(x.x.x 为版本号)
  
 ```sh
-# 获取OSS离线安装包
+# 获取 OSS 离线安装包
 wget https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/riskscanner-release-x.x.x-offline.tar.gz
 # 解压安装包
 tar zxvf riskscanner-release-x.x.x-offline.tar.gz
@@ -47,7 +47,7 @@ rsctl status
  获取 OSS 在线安装包(x.x.x 为版本号)
  
 ```sh
-# 获取OSS在线安装包
+# 获取 OSS 在线安装包
 wget https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/riskscanner-release-x.x.x.tar.gz
 # 解压安装包
 tar zxvf riskscanner-release-x.x.x.tar.gz
