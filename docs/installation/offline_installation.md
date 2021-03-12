@@ -44,7 +44,7 @@ vim install.conf
     ## riskscanner tag
     RS_TAG=1.0.0
     ## Service 端口
-    RS_PORT=80
+    RS_PORT=8080
     
     # 数据库配置
     ## 是否使用外部数据库
@@ -112,7 +112,7 @@ rsctl status
 安装成功后，通过浏览器访问如下页面登录 RiskScanner
 
 ```
-地址: http://目标服务器IP地址:80
+地址: http://目标服务器IP地址:8080
 用户名: admin
 密码: riskscanner
 ```
