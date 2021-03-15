@@ -6,6 +6,10 @@
   background-color: #004a71;
 }
 
+.md-tabs {
+  background-color: #004a71;
+}
+
 .md-footer-nav__link {
   padding-top: .8rem;
 }
@@ -71,4 +75,12 @@
 
 .progress-0plus .progress-bar {
   background-color: #f50057;
+}
+
+.lg-backdrop {
+  background-color: rgb(0 0 0 /0.8)
+}
+
+.lg-outer .lg-img-wrap {
+  padding: 80px
 }

@@ -8,13 +8,14 @@ repo_url: 'https://github.com/riskscanner/riskscanner.git'
 
 theme:
     name: 'material'
-    logo: 'img/favicon-反白.png'
+    logo: 'img/RiskScanner.png'
     favicon: 'img/favicon-彩色.png'
     language: 'zh'
     highlightjs: true
     hljs_languages:
         - yaml
         - django
+    custom_dir: 'theme'
 
 nav:
     - 介绍: index.md
