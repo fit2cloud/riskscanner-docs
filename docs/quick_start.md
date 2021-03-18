@@ -2,14 +2,16 @@
 # 快速开始
 
 ## 准备工作
-* 操作系统: CentOS 7.x
-* CPU/内存: 4核16G
-* 磁盘空间: 100G
+
+仅需两步快速安装 RiskScanner：
+
+1.  准备一台不小于 4 G内存的 64位 Linux 主机；
+2.  以 root 用户执行如下命令一键安装 RiskScanner。
 
 #### 一、快速安装
 
 ```sh
-curl -sSL https://github.com/RiskScanner/riskscanner/releases/latest/download/quick_start.sh | sh
+curl -sSL https://github.com/riskscanner/riskscanner/releases/latest/download/quick_start.sh | sh
 ```
 
 #### 二、Release 在线安装
@@ -90,7 +92,7 @@ RiskScanner 公有云安全合规平台 UI 及交互遵循 Material Design 及 U
 
 #### UI 主界面
 
-![UI 主界面说明](./img/quickstart/layout.png)
+![UI 主界面说明](./img/quickstart/use.png)
 
 
 

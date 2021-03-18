@@ -1,16 +1,13 @@
 ## 环境要求
 
-!!! info "部署服务器要求"
+!!! info "部署服务器推荐"
     * 操作系统: CentOS 7.x
-    * CPU/内存: 4核16G
+    * CPU/内存: 2核4G及以上
     * 磁盘空间: 100G
 
 ## 下载安装包
 
 请自行下载 RiskScanner 最新版本的离线安装包，并复制到目标机器的 /tmp 目录下
-
-!!! tip ""
-    安装包下载请访问 FIT2CLOUD 客户支持门户: https://support.fit2cloud.com
 
 ## 解压安装包
 

@@ -17,12 +17,16 @@
 
 ![规则标签](../img/user_manual/rule/3.png)
 
+![添加规则标签](../img/user_manual/rule/4.png)
+
 
 ### 规则组
 
 >规则组页面提供了对规则组的创建、删除、编辑、查找等操作。RiskScanner 系统初始化时会默认创建内置的对应云平台的规则组，用户也可以根据自己的需要手动创建规则组。
 
-![规则组](../img/user_manual/rule/4.png)
+![规则组](../img/user_manual/rule/5.png)
+
+![添加规则组](../img/user_manual/rule/6.png)
 
 
 

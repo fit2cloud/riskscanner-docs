@@ -21,19 +21,20 @@ nav:
     - 介绍: index.md
     - 快速开始: quick_start.md
     - 系统架构: system_arch.md
-    - 安装部署: 
+    - 安装部署:
+        - 快速安装: installation/quick_start.md
         - 离线安装: installation/offline_installation.md
         - 离线升级: installation/offline_upgrade.md
     - 用户手册:
         - 使用流程: user_manual/process.md
         - 系统设置: user_manual/settings.md
         - 扫描规则: user_manual/rule.md
-        - 云账号管理: user_manual/account.md
+        - 云账号: user_manual/account.md
         - 扫描结果: user_manual/resource.md
         - 首页: user_manual/dashboard.md
-    - 开启通知教程:
-        - 开启企业微信通知: tutorial/weixin_settings.md
-        - 开启钉钉消息通知: tutorial/dingtalk_settings.md
+#    - 开启通知教程:
+#        - 开启企业微信通知: tutorial/weixin_settings.md
+#        - 开启钉钉消息通知: tutorial/dingtalk_settings.md
     - 开发文档: dev_manual.md
     - 关于:
         - 更新说明: about/changelog.md

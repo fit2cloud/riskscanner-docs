@@ -4,7 +4,7 @@
 
 ### 克隆本仓库
 ```bash
-git clone https://github.com/RiskScanner/riskscanner-docs.git
+git clone https://github.com/riskscanner/riskscanner-docs.git
 ```
 
 ### 安装依赖

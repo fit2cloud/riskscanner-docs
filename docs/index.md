@@ -1,27 +1,64 @@
 # 欢迎使用 RiskScanner
 
-RiskScanner 是开源企业级公有云安全合规平台，公有云安全合规服务通过灵活多变的合规规则，对常见公有云平台（如AWS，Azure，Aliyun，Huawei，Tencent，K8s和GCP等）提供公有云资源的安全扫描，帮助企业有效提升公有云使用的合规性。
+RiskScanner 是开源的公有云安全合规扫描平台，通过 Cloud Custodian 的 YAML DSL 定义扫描规则，实现对主流公有云资源的安全合规扫描及使用优化建议。
 
+##### 功能优势:
 
-## 功能能力
+- 等保 2.0 预检：符合等保 2.0 规范，覆盖安全审计、访问控制、入侵防范、网络架构和管理中心等各项检查；
+- CIS 合规检查：符合 CIS 规范，检查和实时监控在云上的资源是否符合 CIS 要求；
+- 最佳实践建议：制定合规管控基线，为企业级用户提供最佳实践建议，持续提升合规水平。
 
-RiskScanner 安全合规能力：
+RiskScanner 遵循 GPL v2 开源协议，使用 SpringBoot/Vue 进行开发，界面美观、用户体验好，支持的公有云包括阿里云、腾讯云、华为云等。
 
-- 用于管理公共云帐户和资源的规则引擎。它允许用户定义策略以启用管理良好的云基础架构，既安全又优化成本。它将组织具有的许多脚本整合为一个轻量级且灵活的工具，并具有统一的指标和报告。
-- 通过确保对安全策略（例如加密和访问要求），标签策略以及通过未使用资源的垃圾收集和非工作时间资源管理的成本管理的实时合规性，RiskScanner 可用于管理 AWS，Azure，Aliyun，Huawei，Tencent，K8s 和 GCP 等环境。
-- 设置策略以简单的YAML配置文件编写，使用户能够指定关于资源类型（EC2，ELB，EBS，ASG，AMI，RDS，VPC，S3，ECS，OSS）的策略，并由过滤器和操作的词汇表构成。
-- 它与每个供应商的云本机无服务器功能集成在一起，以通过内置配置实时实施策略。或者，它可以作为简单的 cron 作业在服务器上运行，以针对大型现有集群执行。
+##### 技术优势:
 
-![产品的功能域能力](./img/intro/产品的功能域能力.png)
+- 规则简单灵活：扫描规则采用简单的 YAML 格式，简单易懂、并允许用户自定义规则；
+- 支持多公有云：支持的公有云包括阿里云、腾讯云、华为云等；
+- 支持多资源：支持的资源类型包括云服务器、云磁盘、云数据库、负载均衡、对象存储、专有网络、安全组等。
 
+![RiskScanner功能架构图](./img/intro/RiskScanner功能架构图.png)
 
-## 技术栈
+## UI 界面展示
 
-- 后端: [Spring Boot](https://www.tutorialspoint.com/spring_boot/spring_boot_introduction.htm)
-- 前端: [Vue.js](https://vuejs.org/)
-- 数据库: [MySQL](https://www.mysql.com/)
-- 基础设施: [Docker](https://www.docker.com/)
+![UI 界面展示](./img/intro/首页.png)
+
+## 快速开始
+
+仅需两步快速安装 RiskScanner：
+
+1.  准备一台不小于 4 G内存的 64位 Linux 主机；
+2.  以 root 用户执行如下命令一键安装 RiskScanner。
+      
+```sh
+curl -sSL https://github.com/riskscanner/riskscanner/releases/latest/download/quick_start.sh | sh
+```
+
+## 帮助文档
+
+- [帮助文档](https://docs.riskscanner.io/)
 
 ## 微信群
 
-![wechat-group](./img/quickstart/group.png)
+![wechat-group](./img/intro/wechat-group.png)
+
+## QQ群
+
+- 729460399
+
+## 技术栈
+
+- 前端: [Vue.js](https://vuejs.org/)
+- 后端: [Spring Boot](https://www.tutorialspoint.com/spring_boot/spring_boot_introduction.htm)
+- 扫描引擎：[cloudcustodian](https://github.com/cloud-custodian/cloud-custodian)
+- 数据库: [MySQL](https://www.mysql.com/)
+- 基础设施: [Docker](https://www.docker.com/)
+
+## License & Copyright
+
+Copyright (c) 2014-2021 飞致云 FIT2CLOUD, All rights reserved.
+
+Licensed under The GNU General Public License version 2 (GPLv2)  (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+https://www.gnu.org/licenses/gpl-2.0.html
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.

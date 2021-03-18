@@ -7,19 +7,20 @@
 
 ![概览](../img/user_manual/dashboard/1.png)
 
+![概览](../img/user_manual/dashboard/2.png)
+
 
 #### 历史记录
 
 >历史记录按云账号展示历史信息（每日一条记录）。
 
-![历史记录](../img/user_manual/dashboard/2.png)
-
+![历史记录](../img/user_manual/dashboard/3.png)
 
 ### 活动
 
 >活动页面记录并显示了所有的用户主要活动信息，包括操作人、操作、操作描述、资源名称、资源类型、操作IP、时间等。
 
-![活动](../img/user_manual/dashboard/3.png)
+![活动](../img/user_manual/dashboard/4.png)
 
 
 
