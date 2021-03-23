@@ -1,6 +1,6 @@
 ## 整体架构
 
-![RiskScanner功能架构图](./img/intro/RiskScanner功能架构图.png)
+![RiskScanner功能架构图](./img/intro/system.png)
 
 !!! info "组件说明"
     - Smart R&D: RiskScanner Web 基于 VUE2.6.10 、 Server 基于 SpringBoot 框架进行的开发
@@ -19,4 +19,4 @@
   
 !!! info "组件关系"
 
-![组件说明](./img/intro/RiskScanner流程图.png)
+![组件说明](./img/intro/process.png)
