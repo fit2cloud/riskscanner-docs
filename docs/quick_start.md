@@ -1,11 +1,10 @@
-
 # 快速开始
 
 ## 准备工作
 
 仅需两步快速安装 RiskScanner：
 
-1.  准备一台不小于 4 G内存的 64位 Linux 主机；
+1.  准备一台不小于 4 G 内存的 64 位 Linux 主机；
 2.  以 root 用户执行如下命令一键安装 RiskScanner。
 
 #### 一、快速安装
@@ -15,8 +14,9 @@ curl -sSL https://github.com/riskscanner/riskscanner/releases/latest/download/qu
 ```
 
 #### 二、Release 在线安装
- 获取 release 在线安装包(x.x.x 为版本号)
- 
+
+获取 release 在线安装包(x.x.x 为版本号)
+
 ```sh
 # 下载 github release 在线安装包
 # 解压安装包
@@ -29,9 +29,27 @@ cd riskscanner-release-x.x.x
 rsctl status
 ```
 
-#### 三、离线安装
- 获取 OSS 离线安装包(x.x.x 为版本号)
- 
+#### 三、百度网盘安装
+
+获取百度网盘离线安装包
+
+```sh
+# 获取百度网盘离线安装包
+百度网盘下载链接: https://pan.baidu.com/s/10AKnB4a1dVLIlObP4inBhg 密码: 4rwe
+# 解压安装包
+tar zxvf riskscanner-release-x.x.x-offline.tar.gz
+# 进入解压包
+cd riskscanner-release-x.x.x-offline
+# 执行脚本
+./install.sh
+# 查看运行状态
+rsctl status
+```
+
+#### 四、离线安装
+
+获取 OSS 离线安装包(x.x.x 为版本号)
+
 ```sh
 # 获取 OSS 离线安装包
 wget https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/riskscanner-release-x.x.x-offline.tar.gz
@@ -45,9 +63,10 @@ cd riskscanner-release-x.x.x-offline
 rsctl status
 ```
 
-#### 四、在线安装
- 获取 OSS 在线安装包(x.x.x 为版本号)
- 
+#### 五、在线安装
+
+获取 OSS 在线安装包(x.x.x 为版本号)
+
 ```sh
 # 获取 OSS 在线安装包
 wget https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/riskscanner-release-x.x.x.tar.gz
