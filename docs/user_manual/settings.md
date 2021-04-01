@@ -8,6 +8,22 @@
 
 ![创建用户](../img/user_manual/settings/2.png)
 
+### 系统参数设置
+
+> 通过邮件设置配置 SMTP 主机、SMTP 端口、SMTP 账户、SMTP 密码等信息。
+
+![邮件设置](../img/user_manual/settings/6.jpg)
+
+### 消息通知
+
+> 通过消息通知，配置安全合规规则扫描资源的通知事件、接收人、接收类型等信息。
+
+![消息通知](../img/user_manual/settings/7.jpg)
+
+> 接收到的邮件通知。
+
+![邮件通知](../img/user_manual/settings/8.jpg)
+
 ## 个人信息
 
 ### 个人设置
