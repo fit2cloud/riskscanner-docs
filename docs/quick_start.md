@@ -17,12 +17,12 @@ curl -sSL https://github.com/riskscanner/riskscanner/releases/latest/download/qu
 
 ```sh
 # 以下方式任选一种即可：
-# 1、获取百度网盘离线安装包，百度网盘下载链接: https://pan.baidu.com/s/10AKnB4a1dVLIlObP4inBhg 密码: 4rwe
-# 2、获取 OSS 离线安装包，wget https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/riskscanner-release-1.0.0-offline.tar.gz
+# 1、获取百度网盘离线安装包，百度网盘下载链接: 链接: https://pan.baidu.com/s/1lfVSb2ZtO59lwY3irL82aQ  密码: 4gs4
+# 2、获取 OSS 离线安装包，wget https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/riskscanner-release-1.0.1-offline.tar.gz
 # 解压安装包
-tar zxvf riskscanner-release-1.0.0.tar.gz
+tar zxvf riskscanner-release-1.0.1.tar.gz
 # 进入解压包
-cd riskscanner-release-1.0.0
+cd riskscanner-release-1.0.1
 # 执行脚本
 ./install.sh
 # 查看运行状态
@@ -33,12 +33,12 @@ rsctl status
 
 ```sh
 # 以下方式任选一种即可：
-# 1、在 https://github.com/riskscanner/riskscanner/releases/tag/v1.0.0 页面下载 github release 最新在线安装包
-# 2、获取 OSS 在线安装包，wget https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/riskscanner-release-1.0.0.tar.gz
+# 1、在 https://github.com/riskscanner/riskscanner/releases/tag/v1.0.1 页面下载 github release 最新在线安装包
+# 2、获取 OSS 在线安装包，wget https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/riskscanner-release-1.0.1.tar.gz
 # 解压安装包
-tar zxvf riskscanner-release-1.0.0.tar.gz
+tar zxvf riskscanner-release-1.0.1.tar.gz
 # 进入解压包
-cd riskscanner-release-1.0.0
+cd riskscanner-release-1.0.1
 # 执行脚本
 ./install.sh
 # 查看运行状态
