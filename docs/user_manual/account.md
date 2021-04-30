@@ -6,9 +6,19 @@
 
 ![云账号设置](../img/user_manual/account/1.png)
 
-> 新增/编辑云账号信息。
+> 新增云账号信息（可批量）。云账号可绑定代理。
+
+![云账号设置](../img/user_manual/account/8.jpg)
+
+![云账号设置](../img/user_manual/account/10.jpg)
+
+> 编辑云账号信息。
 
 ![云账号设置](../img/user_manual/account/2.png)
+
+> 在新增/编辑云账号信息的页面快速添加代理。
+
+![云账号设置](../img/user_manual/account/9.jpg)
 
 > 查看云平台对应的 IAM 策略信息。
 
