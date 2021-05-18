@@ -17,7 +17,7 @@ curl -sSL https://github.com/riskscanner/riskscanner/releases/latest/download/qu
 
 ```sh
 # 以下方式任选一种即可：
-# 1、获取百度网盘离线安装包，百度网盘下载链接: https://pan.baidu.com/s/1oi-EuDhd2B4aWiRNvuNPaQ 密码: n8v3
+# 1、获取百度网盘离线安装包，百度网盘下载链接: https://pan.baidu.com/s/1KLB2oXUmpoy-Z4UOnxTMfw 密码: fl2d
 # 2、获取 OSS 离线安装包，wget https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/riskscanner-release-1.1.1-offline.tar.gz
 # 解压安装包
 tar zxvf riskscanner-release-1.1.1.tar.gz
