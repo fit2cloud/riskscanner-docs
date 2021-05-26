@@ -16,7 +16,7 @@
 ```sh
 cd /tmp
 # 解压安装包
-tar zxvf riskscanner-release-1.1.1-offline.tar.gz
+tar zxvf riskscanner-release-1.2.0-offline.tar.gz
 ```
 
 ## 修改安装配置
@@ -24,7 +24,7 @@ tar zxvf riskscanner-release-1.1.1-offline.tar.gz
 在安装包解压后的目录，编辑修改安装参数
 
 ```sh
-cd riskscanner-release-1.1.1-offline
+cd riskscanner-release-1.2.0-offline
 vim install.conf
 ```
 
@@ -39,7 +39,7 @@ vim install.conf
     ## 镜像 prefix
     RS_PREFIX=registry.fit2cloud.com/riskscanner
     ## riskscanner tag
-    RS_TAG=1.1.1
+    RS_TAG=1.2.0
     ## Service 端口
     RS_PORT=8080
     
@@ -99,7 +99,7 @@ vim install.conf
 
 ```sh
 # 进入安装包目录
-cd riskscanner-release-1.1.1-offline
+cd riskscanner-release-1.2.0-offline
 # 运行安装脚本
 /bin/bash install.sh
 # 等待安装脚本执行完成后，查看 RiskScanner 状态
