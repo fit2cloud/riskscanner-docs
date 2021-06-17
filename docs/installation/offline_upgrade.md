@@ -2,7 +2,7 @@
 
 ```sh
 # 进入项目目录
-cd riskscanner-release-1.2.0-offline
+cd riskscanner-release-1.2.1-offline
 
 # 运行安装脚本
 /bin/bash install.sh
