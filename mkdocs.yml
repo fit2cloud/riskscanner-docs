@@ -105,6 +105,8 @@ extra:
       link: mailto:support@fit2cloud.com
     - icon: fontawesome/brands/skype
       link: tel://400-052-0755
+    - icon: fontawesome/brands/qq
+      link: https://qm.qq.com/cgi-bin/qm/qr?k=yro3zdvticm8J4tdA5Dw20dh028NKeap&jump_from=webapi
 
 extra_css:
   - css/extra.css
