@@ -13,7 +13,7 @@
     cd riskscanner-installer-{{ riskscanner.version }}
     ```
     ```sh
-    ./jmsctl.sh upgrade
+    ./rsctl.sh upgrade
     ```
     ```nginx hl_lines="1 35"
     是否将版本更新至 {{ riskscanner.version }} ? (y/n)  (默认为 n): y
@@ -29,8 +29,8 @@
     [SUCCESS] 备份成功! 备份文件已存放至: /opt/riskscanner/db_backup/riskscanner-2021-03-19_08:32:39.sql
 
     3. 升级成功, 可以重启程序了
-    ./jmsctl.sh restart
+    ./rsctl.sh restart
     ```
     ```sh
-    ./jmsctl.sh restart
+    ./rsctl.sh restart
     ```
