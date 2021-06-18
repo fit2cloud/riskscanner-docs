@@ -1,84 +1,116 @@
 site_name: 'RiskScanner 文档'
 site_url: 'https://riskscanner.io'
-site_description: 'Document'
+site_description: 'RiskScanner 文档'
 site_author: 'maguohao'
 
-repo_name: 'RiskScanner Docs'
+repo_name: 'GitHub Star'
 repo_url: 'https://github.com/riskscanner/riskscanner.git'
+edit_uri: ''
 
 theme:
-    name: 'material'
-    logo: 'img/RiskScanner.png'
-    favicon: 'img/favicon-彩色.png'
-    language: 'zh'
-    highlightjs: true
-    hljs_languages:
-        - yaml
-        - django
-    custom_dir: 'theme'
+  name: 'material'
+  logo: 'img/logo.ico'
+  favicon: 'img/facio.ico'
+  language: 'zh'
+  highlightjs: true
+  feature:
+    tabs: true
+  hljs_languages:
+    - yaml
+    - django
+  palette:
+    accent: 'red'
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.instant
+    - header.autohide
+  font: false
+  custom_dir: 'theme'
 
 nav:
-    - 介绍: index.md
-    - 快速开始: quick_start.md
-    - 系统架构: system_arch.md
-    - 安装部署:
-        - 快速安装: installation/quick_start.md
-        - 离线安装: installation/offline_installation.md
-        - 离线升级: installation/offline_upgrade.md
-    - 用户手册:
-        - 使用流程: user_manual/process.md
-        - 系统设置: user_manual/settings.md
-        - 扫描规则: user_manual/rule.md
-        - 云账号: user_manual/account.md
-        - 扫描结果: user_manual/resource.md
-        - 首页: user_manual/dashboard.md
-    - 开启通知教程:
-        - 开启企业微信通知: tutorial/weixin_settings.md
-        - 开启钉钉消息通知: tutorial/dingtalk_settings.md
-    - 开发文档: dev_manual.md
-    - 常见问题汇总:
-        - 云账号: question/account.md
-    - 关于:
-        - 更新说明: about/changelog.md
-        - 联系我们: about/contact.md
+  - 总体介绍: index.md
+  - 安装配置:
+      - 快速安装: installation/setup_by_fast.md
+      - 升级文档: installation/upgrade/upgrade.md
+  - 系统架构: system_arch.md
+  - 用户手册:
+      - 使用流程: user_manual/process.md
+      - 系统设置: user_manual/settings.md
+      - 扫描规则: user_manual/rule.md
+      - 云账号: user_manual/account.md
+      - 扫描结果: user_manual/resource.md
+      - 首页: user_manual/dashboard.md
+  - 消息通知:
+      - 开启企业微信通知: tutorial/weixin_settings.md
+      - 开启钉钉消息通知: tutorial/dingtalk_settings.md
+  - 开发文档: dev_manual.md
+  - 常见问题:
+      - 云账号: question/account.md
+  - 关于:
+      - 更新说明: about/changelog.md
+      - 联系我们: about/contact.md
 
 markdown_extensions:
-    - admonition
-    - codehilite:
-        guess_lang: True
-        linenums: False
-    - toc:
-        permalink: True
-    - footnotes
-    - attr_list
-    - def_list
-    - tables
-    - abbr
-    - md_in_html
-    - pymdownx.extra
-    - pymdownx.arithmatex
-    - pymdownx.betterem:
-        smart_enable: all
-    - pymdownx.caret
-    - pymdownx.critic
-    - pymdownx.details
-    - pymdownx.emoji:
-        emoji_generator: !!python/name:pymdownx.emoji.to_png
-    - pymdownx.inlinehilite
-    - pymdownx.magiclink
-    - pymdownx.mark
-    - pymdownx.smartsymbols
-    - pymdownx.superfences
-    - pymdownx.tasklist
-    - pymdownx.tilde
-    - pymdownx.betterem
-    - pymdownx.superfences
-    - pymdownx.progressbar
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: ⚓︎
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      options:
+        custom_icons:
+          - theme/.icons
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.saneheaders
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  riskscanner:
+    version: v1.2.1
+  search:
+    separator: '[\s\-\.]+'
+    language: 'zh'
+    Content-Encoding: gzip
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/riskscanner
+    - icon: fontawesome/solid/envelope
+      link: mailto:support@fit2cloud.com
+    - icon: fontawesome/brands/skype
+      link: tel://400-052-0755
 
 extra_css:
-    - css/extra.css
+  - css/extra.css
 
-copyright: Copyright &copy; 2014-2020 <a href="https://www.fit2cloud.com">杭州飞致云信息科技有限公司</a>, All Rights Reserved. <a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备15023818号</a>
-
+copyright: Copyright &copy; 2014-2021 <a href="https://www.fit2cloud.com">杭州飞致云信息科技有限公司</a>, All Rights Reserved. <a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备15023818号</a>
+google_analytics:
 plugins:
     - search
+    - macros
