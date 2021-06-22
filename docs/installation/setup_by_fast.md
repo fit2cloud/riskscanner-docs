@@ -45,11 +45,6 @@
         COMPOSE_PROJECT_NAME=rs
         COMPOSE_HTTP_TIMEOUT=3600
         DOCKER_CLIENT_TIMEOUT=3600
-        DOCKER_SUBNET=192.168.250.0/24
-
-        ## IPV6 设置, 容器是否开启 ipv6 nat, USE_IPV6=1 表示开启, 为 0 的情况下 DOCKER_SUBNET_IPV6 定义不生效
-        USE_IPV6=0
-        DOCKER_SUBNET_IPV6=2001:db8:10::/64
 
         ##  MySQL 配置, USE_EXTERNAL_MYSQL=1 表示使用外置数据库, 请输入正确的 MySQL 信息
         USE_EXTERNAL_MYSQL=0
@@ -71,12 +66,22 @@
 - 安装目录 /opt/riskscanner-installer-{{ riskscanner.version }}
 - 配置文件 /opt/riskscanner/config/config.txt
 
-!!! tip "Install"
+!!! tip "安装"
     ```sh
     ./rsctl.sh install
     ```
 
-!!! tip "Help"
+!!! tip "启动"
+    ```sh
+    ./rsctl.sh start
+    ```
+
+!!! tip "关闭"
+    ```sh
+    ./rsctl.sh down
+    ```
+
+!!! tip "帮助"
     ```sh
     ./rsctl.sh -h
     ```

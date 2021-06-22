@@ -32,5 +32,6 @@
     ./rsctl.sh restart
     ```
     ```sh
-    ./rsctl.sh restart
+    ./rsctl.sh down
+    ./rsctl.sh start
     ```
