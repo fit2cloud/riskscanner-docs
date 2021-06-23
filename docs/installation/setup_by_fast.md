@@ -66,13 +66,13 @@
     | 下载地址                                                                                                                                                | 密码 |
     | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :--- |
     | [百度云盘](https://pan.baidu.com/s/16ASYulpHXW5HpAvyJgwv5Q)                                                                                             | m5am |
-    | [阿里云 OSS](https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/riskscanner-release-{{ riskscanner.version }}-offline.tar.gz) |      |
+    | [阿里云 OSS](https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/riskscanner-release-{{ riskscanner.version }}-offline.zip) |      |
 
     下载完成后，上传到 linux 服务器 /opt 目录进行解压
 
     !!! tip ""
         ```bash
-        tar -xf riskscanner-release-{{ riskscanner.version }}-offline.tar.gz
+        unzip riskscanner-release-{{ riskscanner.version }}-offline.zip
         cd riskscanner-release-{{ riskscanner.version }}
         ./rsctl.sh install
         ```
