@@ -5,7 +5,7 @@
 !!! info "组件说明"
     - Smart R&D: RiskScanner Web 基于 VUE2.6.10 、 Server 基于 SpringBoot 框架进行的开发
     - 安全策略: RiskScanner 以简单的YAML配置文件编写安全策略
-    - 多云管理: RiskScanner 对常见公有云平台（如AWS，Azure，Aliyun，Huawei，Tencent，K8s和GCP等）进行资源扫描与管理
+    - 多云管理: RiskScanner 对常见公(私)有云平台（如Aliyun，Huawei，Tencent，AWS，Azure，GCP，OpenStack，Vsphere等）进行资源扫描与管理
     - 漏洞扫描: RiskScanner 由安全策略里的过滤器进行资源的漏洞扫描
     - 云账号: RiskScanner 的公有云账号信息的基础配置
     - 扫描规则: RiskScanner 的公有云云平台的资源扫描规则
