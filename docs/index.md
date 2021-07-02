@@ -7,7 +7,7 @@
 
     RiskScanner 通过 Cloud Custodian 的 YAML DSL 定义扫描规则，实现对主流公有云资源的安全合规扫描及使用优化建议。
 
-    RiskScanner 支持的公有云包括阿里云、腾讯云、华为云、Amazon Web Services、Microsoft Azure，支持的私有云包括 OpenStack、VMware vSphere 等。
+    RiskScanner 支持的公有云包括阿里云、腾讯云、华为云、Amazon Web Services、Microsoft Azure、Google Cloud，支持的私有云包括 OpenStack、VMware vSphere 等。
 
 ## 架构图
 
@@ -24,7 +24,7 @@
 
 !!! tip ""
     - 规则简单灵活：扫描规则采用简单的 YAML 格式，简单易懂、并允许用户自定义规则；
-    - 支持多公/私有云：支持的公有云包括阿里云、腾讯云、华为云、Amazon Web Services、Microsoft Azure，支持的私有云包括 OpenStack、VMware vSphere  等；
+    - 支持多公/私有云：支持的公有云包括阿里云、腾讯云、华为云、Amazon Web Services、Microsoft Azure、Google Cloud，支持的私有云包括 OpenStack、VMware vSphere 等；
     - 支持多资源：支持的资源类型包括云服务器、云磁盘、云数据库、负载均衡、对象存储、专有网络、安全组等。
 
 ## 页面展示
