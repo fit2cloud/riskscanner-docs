@@ -73,7 +73,7 @@
     !!! tip ""
         ```bash
         unzip riskscanner-release-{{ riskscanner.version }}-offline.zip
-        cd riskscanner-release-{{ riskscanner.version }}
+        cd riskscanner-release-{{ riskscanner.version }}-offline
         ./rsctl.sh install
         ```
 
