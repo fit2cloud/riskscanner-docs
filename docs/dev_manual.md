@@ -1,4 +1,4 @@
-## 项目结构
+## RiskScanner 项目结构（https://github.com/riskscanner/riskscanner）
 
 ```
 .
@@ -126,3 +126,26 @@ yarn serve
 #### 前端服务成功运行
 
 ![server-start](./img/quickstart/front-start.png)
+
+## Cloud Custodian 项目结构（https://github.com/riskscanner/cloud-custodian）(riskscanner 分支)
+
+```
+.
+├── c7n                                           # c7n基础 aws
+├── docker                                        # docker
+├── docs
+├── tests
+├── tools                                         # 其他平台
+│   ├── c7n_aliyun                                # 阿里云
+│   ├── c7n_azure                                 # Azure          
+│   ├── c7n_gcp                                   # Google Cloud
+│   ├── c7n_huawei                                # 华为云
+│   ├── c7n_kube                                  # k8s
+│   ├── c7n_openstack                             # OpenStack
+│   ├── c7n_tencent                               # 腾讯云
+│   └── c7n_vsphere                               # VMware vSphere
+├── pyproject.toml
+├── poetry.lock
+├── requirements.txt
+└── setup.py                                       
+```
