@@ -6,9 +6,8 @@
 
 !!! tip "操作步骤"
     ```sh
+    # 百度网盘下载链接: https://pan.baidu.com/s/1TqYggL7AWiUrIV-fOtfwNA 密码: jd90
     cd /opt
-    yum -y install wget
-    wget https://github.com/riskscanner/riskscanner-installer/releases/download/{{ riskscanner.version }}/riskscanner-installer-{{ riskscanner.version }}.tar.gz
     tar -xf riskscanner-installer-{{ riskscanner.version }}.tar.gz
     cd riskscanner-installer-{{ riskscanner.version }}
     ```
