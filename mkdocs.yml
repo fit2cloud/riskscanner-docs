@@ -48,6 +48,7 @@ nav:
   - 开发文档: dev_manual.md
   - 常见问题:
       - 如何自定义规则: question/rule.md
+      - 阿里云监控规则示例: question/example.md
       - 云账号校验失败: question/account.md
   - 关于:
       - 更新说明: about/changelog.md
