@@ -465,8 +465,8 @@ Help
 ----
 Supports   metrics filters on resources.
 .. code-block:: yaml
-- name: ecs-underutilized
-  resource: ecs
+- name: aliyun-ecs-underutilized
+  resource: aliyun.ecs
   filters:
     - type: metrics
       name: CPUUtilization
@@ -482,8 +482,8 @@ average cpu utilization.
 The "missing-value" key allows a policy to specify a default
 value when CloudWatch has no data to report:
 .. code-block:: yaml
-- name: elb-low-request-count
-  resource: elb
+- name: aliyun-elb-low-request-count
+  resource: aliyun.elb
   filters:
     - type: metrics
       name: RequestCount
@@ -568,11 +568,11 @@ required:
 
 最终实现规则示例：
 ```
-policies:
-  - name: ecs-underutilized
-    resource: ecs
-    filters:
-      - type: metrics
+policies:                                      -- policies 固定写法
+  - name: aliyun-ecs-underutilized             -- name 自定义扫描的名称（也是返回结果的目录名称）
+    resource: aliyun.ecs                       -- resource 要扫描的资源类型（根据custodian schema 查询的结果来写）
+    filters:                                   -- filters 过滤（下面是过滤各种条件）
+      - type: metrics                          -- type 过滤类型
         name: CPUUtilization
         days: 4
         period: 86400

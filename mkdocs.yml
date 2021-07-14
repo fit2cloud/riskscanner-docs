@@ -1,5 +1,5 @@
 site_name: 'RiskScanner 文档'
-site_url: 'https://riskscanner.io'
+site_url: 'https://docs.riskscanner.io'
 site_description: 'RiskScanner 文档'
 site_author: 'maguohao'
 
@@ -47,9 +47,9 @@ nav:
       - 开启钉钉消息通知: tutorial/dingtalk_settings.md
   - 开发文档: dev_manual.md
   - 常见问题:
+      - 解决云账号校验失败问题: question/account.md
       - 如何自定义规则: question/rule.md
-      - 阿里云监控规则示例: question/example.md
-      - 云账号校验失败: question/account.md
+      - 自定义阿里云监控规则示例: question/example.md
   - 关于:
       - 更新说明: about/changelog.md
       - 联系我们: about/contact.md
