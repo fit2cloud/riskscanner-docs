@@ -6,6 +6,12 @@
 
 ![扫描结果](../img/user_manual/resource/2.png)
 
+> 点击扫描状态查看日志信息, 可以查看区域的扫描日志、扫描API、扫描结果。
+
+![扫描结果](../img/user_manual/resource/9.png)
+
+![扫描结果](../img/user_manual/resource/8.png)
+
 > 扫描结果详情页面，根据云账号对应的规则展示具体资源详细信息。
 
 ![扫描结果](../img/user_manual/resource/3.png)

@@ -149,3 +149,7 @@ yarn serve
 ├── requirements.txt
 └── setup.py                                       
 ```
+
+#### RiskScanner 日志目录
+
+/opt/riskscanner/logs

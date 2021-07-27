@@ -39,7 +39,9 @@ nav:
       - 开启钉钉消息通知: tutorial/dingtalk_settings.md
   - 开发文档: dev_manual.md
   - 常见问题:
-      - 云账号: question/account.md
+      - 解决云账号校验失败问题(Custodian): question/account.md
+      - 如何自定义规则(Custodian): question/rule.md
+      - 自定义阿里云监控规则示例(Custodian): question/example.md
   - 关于:
       - 更新说明: about/changelog.md
       - 联系我们: about/contact.md
