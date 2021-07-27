@@ -1,5 +1,35 @@
 # 更新日志
 
+v1.4.0
+------------------------
+2021年07月27日
+
+!!! info "🌱 新功能 Features"
+    - feat（规则引擎）：新增 Nuclei 规则引擎，Nuclei 是 github 上基于 YAML 模板的网络侦查安全漏洞扫描的开源项目。
+    - feat（云平台）：集成 Nuclei 到 Riskscanner, 将 Nuclei 当做 Riskscanner 里的一个无校验的云账号，只许输入目标地址，即可应用 Nuclei 无账号扫描。
+    - feat（扫描规则）：新增 Nuclei 内置规则示例，可自行添加 nuclei-templates 或自己编写的 yaml 进行扫描。
+    - feat（扫描日志）：新增扫描日志查看，包括扫描日志、扫描API、扫描结果。
+
+!!! summary "🚀 性能优化 Optimization"
+    - feat（actions）：优化 workflows 打包的 actions。
+    - feat（文档docs）：优化 riskscanner.io 官网文档内容与格式样式。
+    - feat（扫描结果）：优化 Nuclei 扫描结果信息。
+
+!!! success "🐛 Bug修复 Bug Fixes"
+    - fix（腾讯云）：修复CVM实例公网IP扫描未绑定IP时报错的问题。
+    - fix（代码安全漏洞）：解决riskscanner代码质量扫描一处SQL注入漏洞的问题。
+    - fix（基础镜像）：修改custodian基础镜像的镜像源。
+    - fix（install）：修复数据库初始化报错的问题。
+
+v1.3.2
+------------------------
+2021年07月14日
+
+!!! summary "🚀 性能优化 Optimization"
+    - feat（扫描规则）：新增用户自定义阿里云监控扫描规则，详情请访问https://docs.riskscanner.io/question/rule 和 https://docs.riskscanner.io/question/example。
+    - feat（login）：优化当login页面输入密码错误提示弹框不合理的问题。
+    - feat（策略）：优化腾讯云 IAM 策略信息。
+
 v1.3.1
 ------------------------
 2021年07月02日
