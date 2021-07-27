@@ -100,3 +100,8 @@
     ```sh
     ./rsctl.sh -h
     ```
+
+!!! tip "默认登录密码："
+  ```
+    admin/riskscanner
+  ```
