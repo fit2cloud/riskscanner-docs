@@ -1,13 +1,13 @@
 # 总体介绍
 
 !!! tip ""
-    RiskScanner 是开源的多云安全合规扫描平台，使用 GPL v2 开源协议。
+    RiskScanner `/ˈrɪskˌskænə(r)/` 是开源的多云安全合规扫描平台，使用 GPL v2 开源协议。
 
     RiskScanner 使用 SpringBoot/Vue 进行开发，界面美观、用户体验好。
 
-    RiskScanner 通过 Cloud Custodian 的 YAML DSL 和 Nuclei 的 YAML 模板定义扫描规则，实现对主流公(私)有云资源、无账号网络侦查的安全合规扫描及使用优化建议。
+    RiskScanner 是开源的多云安全合规扫描平台，基于 Cloud Custodian 和 Nuclei 引擎，实现对主流公(私)有云资源的安全合规扫描和漏洞扫描。
 
-    RiskScanner 支持的公有云包括阿里云、腾讯云、华为云、Amazon Web Services、Microsoft Azure、Google Cloud，支持的私有云包括 OpenStack、VMware vSphere 等。并且支持无账号的网络侦查安全漏洞扫描。
+    RiskScanner 支持的公有云包括阿里云、腾讯云、华为云、Amazon Web Services、Microsoft Azure、Google Cloud，支持的私有云包括 OpenStack、VMware vSphere 等， 并且支持漏洞扫描。
 
 ## 架构图
 
@@ -27,7 +27,7 @@
     - 规则简单灵活：扫描规则采用简单的 YAML 格式，简单易懂、并允许用户自定义规则；
     - 支持多公/私有云：支持的公有云包括阿里云、腾讯云、华为云、Amazon Web Services、Microsoft Azure、Google Cloud，支持的私有云包括 OpenStack、VMware vSphere 等；
     - 支持多资源：支持的资源类型包括云服务器、云磁盘、云数据库、负载均衡、对象存储、专有网络、安全组等；
-    - 支持无账号网络侦查：可配置攻击目标，零误报，包含了爬虫、通用漏洞检测（如 SQL 注入、XSS 检测）、指纹信息收集（如 Web 服务、语言框架等）、专用漏洞检测等；
+    - 漏洞扫描：可配置攻击目标，零误报，包含了爬虫、通用漏洞检测（如 SQL 注入、XSS 检测）、指纹信息收集（如 Web 服务、语言框架等）、专用漏洞检测等；
 
 ## 页面展示
 
