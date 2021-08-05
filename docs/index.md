@@ -1,7 +1,7 @@
 # 总体介绍
 
 !!! tip ""
-    RiskScanner `/ˈrɪskˌskænə(r)/` 是开源的多云安全合规扫描平台，使用 GPL v2 开源协议。
+    RiskScanner 是开源的多云安全合规扫描平台，使用 GPL v2 开源协议。
 
     RiskScanner 使用 SpringBoot/Vue 进行开发，界面美观、用户体验好。
 

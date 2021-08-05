@@ -1,9 +1,9 @@
 site_name: 'RiskScanner 文档'
 site_url: 'https://docs.riskscanner.io'
-site_description: 'RiskScanner 文档'
 site_author: 'maguohao'
+site_description: 'RiskScanner 是开源的多云安全合规扫描平台'
 
-repo_name: 'GitHub Star'
+repo_name: 'riskscanner/riskscanner'
 repo_url: 'https://github.com/riskscanner/riskscanner.git'
 edit_uri: ''
 
@@ -12,22 +12,30 @@ theme:
   logo: 'img/logo.ico'
   favicon: 'img/facio.ico'
   language: 'zh'
-  highlightjs: true
-  feature:
-    tabs: true
-  hljs_languages:
-    - yaml
-    - django
   palette:
-    accent: 'red'
+    - scheme: default
+      accent: 'red'
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      accent: 'red'
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
   features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
     - search.suggest
     - search.highlight
     - search.share
-    - navigation.instant
     - header.autohide
   font: false
   custom_dir: 'theme'
+  icon:
+    repo: fontawesome/brands/github
 
 nav:
   - 总体介绍: index.md
@@ -50,6 +58,7 @@ nav:
       - 解决云账号校验失败问题(Custodian): question/account.md
       - 如何自定义规则(Custodian): question/rule.md
       - 自定义阿里云监控规则示例(Custodian): question/example.md
+  - 技术咨询: https://jinshuju.net/f/ARLfRi
   - 关于:
       - 更新说明: about/changelog.md
       - 联系我们: about/contact.md
@@ -100,6 +109,9 @@ extra:
     language: 'zh'
     Content-Encoding: gzip
   generator: false
+  version:
+    default: master
+    provider: mike
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/riskscanner
