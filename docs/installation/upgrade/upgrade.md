@@ -6,7 +6,7 @@
 === "快速在线升级"
     ```sh
     #如果您已经部署旧版本，可通过如下命令一键升级至最新版本:
-    cd /opt
+    cd /opt/riskscanner
     # 直接升级并且自动重启，无需其他操作
     ./rsctl.sh check_update
     ```
