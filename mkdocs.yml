@@ -58,6 +58,7 @@ nav:
       - 解决云账号校验失败问题(Custodian): question/account.md
       - 如何自定义规则(Custodian): question/rule.md
       - 自定义阿里云监控规则示例(Custodian): question/example.md
+      - 自定义漏洞扫描规则(Nuclei): question/nuclei.md
   - 技术咨询: https://jinshuju.net/f/ARLfRi
   - 关于:
       - 更新说明: about/changelog.md
