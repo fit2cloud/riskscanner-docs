@@ -6,7 +6,7 @@
 规则示例：
 ```
 policies:
-  # ECS主机连续n天内业务高峰阶段CPU平均使用率在不高于x%，符合条件视为”合规“，否则视为”不合规“
+  # ECS主机连续n天内业务高峰阶段CPU平均使用率在不高于x%，符合条件视为”不合规“，否则视为”合规“
   - name: aliyun-ecs-cpu-underutilized
     resource: aliyun.ecs
     filters:
@@ -44,7 +44,7 @@ policies:
 规则示例：
 ```
 policies:
-  # ECS主机指定时间范围内，CPU平均使用率低于指定值（基于agent监控）,符合条件视为”合规“，否则视为”不合规“
+  # ECS主机指定时间范围内，CPU平均使用率低于指定值（基于agent监控）,符合条件视为”不合规“，否则视为”合规“
   - name: aliyun-ecs-cpu-metrics
     resource: aliyun.ecs
     filters:
@@ -63,7 +63,7 @@ policies:
 规则示例：
 ```
 policies:
-  # ECS主机指定时间范围内，内存平均使用率低于指定值（基于agent监控）,符合条件视为”合规“，否则视为”不合规“
+  # ECS主机指定时间范围内，内存平均使用率低于指定值（基于agent监控）,符合条件视为”不合规“，否则视为”合规“
   - name: aliyun-ecs-memory-metrics
     resource: aliyun.ecs
     filters:
@@ -131,7 +131,7 @@ policies:
 规则示例：
 ```
 policies:
-  # 指定时间范围内，虚拟机公网流量（流出）或 EIP 公网流量（流出）的平均值/总带宽比值低于指定百分比,符合条件视为”合规“，否则视为”不合规“
+  # 指定时间范围内，虚拟机公网流量（流出）或 EIP 公网流量（流出）的平均值/总带宽比值低于指定百分比,符合条件视为”不合规“，否则视为”合规“
   - name: aliyun-ecs-rate-metrics
     resource: aliyun.ecs
     filters:
@@ -156,7 +156,7 @@ policies:
 规则示例：
 ```
 policies:
-  # RDS实例在指定时间范围内，CPU和内存平均使用率低于指定值(单位: 使用率%),符合条件视为”合规“，否则视为”不合规“
+  # RDS实例在指定时间范围内，CPU和内存平均使用率低于指定值(单位: 使用率%),符合条件视为”不合规“，否则视为”合规“
   - name: aliyun-rds-metrics
     resource: aliyun.rds
     filters:
@@ -182,7 +182,7 @@ policies:
 规则示例：
 ```
 policies:
-    # RDS实例在指定时间范围内 IOPS 监控值低于指定值(单位: 使用率%),符合条件视为”合规“，否则视为”不合规“
+    # RDS实例在指定时间范围内 IOPS 监控值低于指定值(单位: 使用率%),符合条件视为”不合规“，否则视为”合规“
     # IOPS使用率:IOPSUsage
     # 连接数使用率: ConnectionUsage
     # 内存使用率: MemoryUsage
@@ -204,7 +204,7 @@ policies:
 规则示例：
 ```
 policies:
-  # SLB在指定时间范围内，流量监控低于某值(单位：bit/s),符合条件视为”合规“，否则视为”不合规“
+  # SLB在指定时间范围内，流量监控低于某值(单位：bit/s),符合条件视为”不合规“，否则视为”合规“
   - name: aliyun-slb-metrics
     resource: aliyun.slb
     filters:
