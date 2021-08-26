@@ -4,13 +4,13 @@
 
 ### 克隆本仓库
 
-```bash
+```sh
 git clone https://github.com/riskscanner/riskscanner-docs.git
 ```
 
 ### 安装依赖
 
-```bash
+```sh
 cd docs
 pip install -r requirements/requirements.txt
 ```
@@ -52,7 +52,7 @@ nav:
 
 ### 本地调试文档
 
-```bash
+```sh
 mkdocs serve
 ```
 
@@ -60,7 +60,7 @@ mkdocs serve
 
 ### 构建文档
 
-```bash
+```sh
 mkdocs build
 ```
 
@@ -74,7 +74,7 @@ mkdocs build
 
 ### 克隆 fork 后的仓库
 
-```bash
+```sh
 git clone https://github.com/your-github-account/docs.git
 ```
 
