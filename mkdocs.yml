@@ -59,6 +59,7 @@ nav:
       - 如何自定义规则(Custodian): question/rule.md
       - 自定义阿里云监控规则示例(Custodian): question/example.md
       - 自定义漏洞扫描规则(Nuclei): question/nuclei.md
+      - 快速了解AWS扫描规则(Prowler): question/prowler.md
   - 资源下载: about/download.md
   - 技术咨询: https://jinshuju.net/f/ARLfRi
   - 关于我们:
