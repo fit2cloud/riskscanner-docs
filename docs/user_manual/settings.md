@@ -32,6 +32,12 @@
 
 ![邮件通知](../img/user_manual/settings/7.jpg)
 
+### 站内消息
+
+> 右上角显示未读消息，每次有新的扫描结果都会添加到站内消息的队列中。
+
+![代理设置](../img/user_manual/settings/12.jpg)
+
 ### 代理设置
 
 > 通过代理设置，配置 Proxy 类型、Proxy IP、Proxy 端口、Proxy 用户名、Proxy 密码等信息。

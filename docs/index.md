@@ -8,7 +8,7 @@
 
 ## 架构图
 
-![RiskScanner功能架构图](img/intro/functional-architecture.png)
+![RiskScanner功能架构图](https://fit2cloud2-offline-installer.oss-cn-beijing.aliyuncs.com/riskscanner/img/functional-architecture.png)
 
 ## 功能优势
 
