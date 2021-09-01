@@ -1,5 +1,27 @@
 # 更新日志
 
+v1.5.0
+------------------------
+2021年08月31日
+
+!!! info "🌱 新功能 Features"
+- feat（规则引擎）：新增 Prowler 规则引擎， Prowler 是 github 上开源的针对 AWS 的安全最佳实践评估、审计的工具。
+- feat（云平台）：集成 Prowler 到 Riskscanner, 将 Prowler 平台 当做 Riskscanner 里的一个 AWS 的云账号，直接应用 AWS 账号进行扫描。
+- feat（扫描规则）：新增 Prowler 内置规则示例，按规则组进行分类，进行 Prowler 官方全资源扫描。
+- feat（站内消息）：新增站内消息功能，每次扫描后可查看扫描结果未读消息。
+
+!!! summary "🚀 性能优化 Optimization"
+- feat（Aliyun）：优化阿里云监控扫描数据重复问题。
+- feat（Huawei）：优化限制华为云 IAM 策略区域过滤的问题。
+- feat（重新扫描）：优化重新扫描时，除 custodian 其他类型的错误问题。
+- feat（快速扫描）：优化快速扫描、重新扫描时，获取不到已保存的区域的问题。
+
+!!! success "🐛 Bug修复 Bug Fixes"
+- fix（AWS）：解决 AWS 国际区账号有代理的时候获取不到区域的问题。
+- fix（Spring）：解决 Spring 环境的循环依赖，导致启动报错的问题。
+- fix（SQL）：解决新增的阿里云规则与规则组 id 对应不上的问题。
+- fix（历史记录）：解决首页-历史记录页面点击云账号弹出错误提示的问题。
+
 v1.4.1
 ------------------------
 2021年08月13日
