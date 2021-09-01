@@ -36,7 +36,7 @@
 
 > 右上角显示未读消息，每次有新的扫描结果都会添加到站内消息的队列中。
 
-![代理设置](../img/user_manual/settings/12.jpg)
+![代理设置](../img/user_manual/settings/12.png)
 
 ### 代理设置
 
