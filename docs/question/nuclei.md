@@ -99,4 +99,4 @@ Nuclei支持通过.yaml文件来自动传递和执行多个模板任务，如需
 
 ##### 工具截图
 
-![img.png](../img/question/img.png)
+![img.png](../img/question/nuclei1.png)
