@@ -1196,7 +1196,7 @@
         <td  colspan="3">√</td>
     </tr>
     <tr>
-        <td  colspan="3" rowspan="9"><h4>安全管理机构</h4></td>
+        <td  colspan="3" rowspan="18"><h4>安全管理机构</h4></td>
         <td  colspan="3" rowspan="4"><h5>岗位设置</h5></td>
         <td  colspan="3">应设立系统管理员等岗位，并定义各个工作岗位的职责。</td>
         <td  colspan="3">√</td>
@@ -1222,6 +1222,930 @@
         <td  colspan="3">应设立系统管理员、审计管理员和安全管理员等岗位，并定义部门及各个工作岗位的职责。</td>
         <td  colspan="3"></td>
         <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="4"><h5>人员配备</h5></td>
+        <td  colspan="3">应配备一定数量的系统管理员。</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应配备一定数量的系统管理员、审计管理员和安全管理员等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应配备专职安全管理员，不可兼任。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">关键事务岗位应配备多人共同管理。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="4"><h5>授权和审批</h5></td>
+        <td  colspan="3">应根据各个部门和岗位的职责明确授权审批事项、审批部门和批准人等。</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应针对系统变更、重要操作、物理访问和系统接入等事项执行审批过程。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应针对系统变更、重要操作、物理访问和系统接入等事项建立审批程序，按照审批程序执行审批过程，对重要活动建立逐级审批制度。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应定期审查审批事项，及时更新需授权和审批的项目、审批部门和审批人等信息。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>沟通和合作</h5></td>
+        <td  colspan="3">应加强各类管理人员、组织内部机构和网络安全管理部门之间的合作与沟通，定期召开协调会议，共同协作处理网络安全问题。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应加强与网络安全职能部门、各类供应商、业界专家及安全组织的合作与沟通。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应建立外联单位联系列表，包括外联单位名称、合作内容、联系人和联系方式等信息。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>审核和检查</h5></td>
+        <td  colspan="3">应定期进行常规安全检查,检查内容包括系统日常运行、系统漏洞和数据备份等情况。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应定期进行全面安全检査，检査内容包括现有安全技术措施的有效性、安全配置与安全策略的一致性、安全管理制度的执行情况等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应制定安全检査表格实施安全检查，汇总安全检查数据，形成安全检查报告，并对安全检查结果进行通报。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="16"><h4>安全管理人员</h4></td>
+        <td  colspan="3" rowspan="5"><h5>人员录用</h5></td>
+        <td  colspan="3">应指定或授权专门的部门或人员负责人员录用。</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对被录用人员的身份、安全背景、专业资格或资质等进行审査。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对被录用人员的身份、安全背景、专业资格或资质等进行审查，对其所具有的技术技能进行考核。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应与被录用人员签署保密协议，与关键岗位人员签署岗位责任协议。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应从内部人员中选拔从事关键岗位的人员。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="2"><h5>人员离岗</h5></td>
+        <td  colspan="3">应及时终止离岗人员的所有访问权限，取回各种身份证件、钥匙、徽章等以及机构提供的软硬件设备。</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应办理严格的调离手续，并承诺调离后的保密义务后方可离开。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>安全意识教育和培训</h5></td>
+        <td  colspan="3">应对各类人员进行安全意识教育和岗位技能培训，并告知相关的安全责任和惩戒措施。</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应针对不同岗位制定不同的培训计划，对安全基础知识、岗位操作规程等进行培训。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应定期对不同岗位的人员进行技能考核。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="6"><h5>外部人员访问管理</h5></td>
+        <td  colspan="3">应保证在外部人员访问受控区域前得到授权或审批。</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应在外部人员物理访问受控区域前先提出书面申请，批准后由专人全程陪同，并登记备案。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应在外部人员接入受控网络访问系统前先提出书面申请，批准后由专人开设账户、分配权限，并登记备案。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">外部人员离场后应及时清除其所有的访问权限。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">获得系统访问授权的外部人员应签署保密协议,不得进行非授权操作，不得复制和泄露任何敏感信息。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">对关键区域或关键系统不允许外部人员访问。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="41"><h4>安全建设管理</h4></td>
+        <td  colspan="3" rowspan="4"><h5>定级和备案</h5></td>
+        <td  colspan="3">应以书面的形式说明保护对象的安全保护等级及确定等级的方法和理由。</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应组织相关部门和有关安全技术专家对定级结果的合理性和正确性进行论证和审定。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应保证定级结果经过相关部门的批准。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应将备案材料报主管部门和相应公安机关备案。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="5"><h5>安全方案设计</h5></td>
+        <td  colspan="3">应根据安全保护等级选择基本安全措施，依据风险分析的结果补充和调整安全措施。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应根据保护对象的安全保护等级进行安全方案设计。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应根据保护对象的安全保护等级及与其他级别保护对象的关系进行安全整体规划和安全方案设计，设计内容应包含密码技术相关内容，并形成配套文件。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应组织相关部门和有关安全专家对安全方案的合理性和正确性进行论证和审定，经过批准后才能正式实施。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应组织相关部门和有关安全专家对安全整体规划及其配套文件的合理性和正确性进行论证和审定，经过批准后才能正式实施。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="4"><h5>产品采购和使用</h5></td>
+        <td  colspan="3">应确保网络安全产品采购和使用符合国家的有关规定。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应确保密码产品与服务的采购和使用符合国家密码管理主管部门的要求。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应预先对产品进行选型测试，确定产品的候选范围，并定期审定和更新候选产品名单。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对重要部位的产品委托专业测评单位进行专项测试，依据测试结果选用产品。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="8"><h5>自行软件开发</h5></td>
+        <td  colspan="3">应将开发环境与实际运行环境物理分开，测试数据和测试结果受到控制。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应制定软件开发管理制度，明确说明开发过程的控制方法和人员行为准则。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应制定代码编写安全规范，要求开发人员参照规范编写代码。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应具备软件设计的相关文档和使用指南，并对文档使用进行控制。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应在软件开发过程中对安全性进行测试,在软件安装前对可能存在的恶意代码进行检测。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应保证在软件开发过程中对安全性进行测试，在软件安装前对可能存在的恶意代码进行检测。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对程序资源库的修改、更新、发布进行授权和批准，并严格进行版本控制。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应保证开发人员未专职人员，开发人员的开发活动受到控制、监视和审查。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>外包软件开发</h5></td>
+        <td  colspan="3">应在软件交付前检测其中可能存在的恶意代码。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应保证开发单位提供软件设计文档和使用指南。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应保证开发单位提供软件源代码，并审查软件中可能存在的后门和隐蔽信道。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>工程实施</h5></td>
+        <td  colspan="3">应指定或授权专门的部门或人员负责工程实施过程的管理。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应制定安全工程实施方案控制工程实施过程。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应通过第三方工程监理控制项目的实施过程。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="4"><h5>测试验收</h5></td>
+        <td  colspan="3">应进行安全性测试验收。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应制订测试验收方案，并依据测试验收方案实施测试验收，形成测试验收报告。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应进行上线前的安全性测试，并出具安全测试报告。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应进行上线前的安全性测试，并出具安全测试报告，安全测试报告应包含密码应用安全性测试相关内容。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>系统交付</h5></td>
+        <td  colspan="3">应制定交付清单，并根据交付清单对所交接的设备、软件和文档等进行清点。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对负责运行维护的技术人员进行相应的技能培训。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应提供建设过程文档和运行维护文档。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>等级测评</h5></td>
+        <td  colspan="3">应定期进行等级测评，发现不符合相应等级保护标准要求的及时整改。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应在发生重大变更或级别发生变化时进行等级测评。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应确保测评机构的选择符合国家有关规定。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="4"><h5>服务供应商选择</h5></td>
+        <td  colspan="3">应确保服务供应商的选择符合国家的有关规定。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应与选定的服务供应商签订与安全相关的协议，明确约定相关责任。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应与选定的服务供应商签订相关协议，明确整个服务供应链各方需履行的网络安全相关义务。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应定期监督、评审和审核服务供应商提供的服务，并对其变更服务内容加以控制。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="56"><h4>安全运维管理</h4></td>
+        <td  colspan="3" rowspan="4"><h5>环境管理</h5></td>
+        <td  colspan="3">应指定专门的部门或人员负责机房安全,对机房出入进行管理，定期对机房供配电、空调、温湿 度控制、消防等设施进行维护管理。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对机房的安全管理做出规定,包括物理访问、物品进出和环境安全等方面。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应不在重要区域接待来访人员，不随意放置含有敏感信息的纸档文件和移动介质等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对出入人员进行相应级别的授权，对进入重要安全区域的人员和活动实时监视等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>资产管理</h5></td>
+        <td  colspan="3">应编制并保存与保护对象相关的资产清单，包括资产责任部门、重要程度和所处位置等内容。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应根据资产的重要程度对资产进行标识管理，根据资产的价值选择相应的管理措施。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对信息分类与标识方法作出规定，并对信息的使用、传输和存储等进行规范化管理。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="2"><h5>介质管理</h5></td>
+        <td  colspan="3">应将介质存放在安全的环境中，对各类介质进行控制和保护，实行存储环境专人管理，并根据存档 介质的目录清单定期盘点。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对介质在物理传输过程中的人员选择、打包、交付等情况进行控制，并对介质的归档和查询等进行登记记录。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="5"><h5>设备维护管理</h5></td>
+        <td  colspan="3">应对各种设备（包括备份和冗余设备）、线路等指定专门的部门或人员定期进行维护管理。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对配套设施、软硬件维护管理做出规定，包括明确维护人员的责任、维修和服务的审批、维修过程的监督控制等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应建立配套设施、软硬件维护方面的管理制度，对其维护进行有效的管理，包括明确维护人员的责任、维修和服务的审批、维修过程的监督控制等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">信息处理设备应经过审批才能带离机房或办公地点，含有存储介质的设备带出工作环境时其中重要数据应加密。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">含有存储介质的设备在报废或重用前，应进行完全清除或被安全覆盖，保证该设备上的敏感数据和授权软件无法被恢复重用。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="2"><h5>漏洞和风险管理</h5></td>
+        <td  colspan="3">应釆取必要的措施识别安全漏洞和隐患，对发现的安全漏洞和隐患及时进行修补或评估可能的影 响后进行修补。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应定期开展安全测评，形成安全测评报告，采取措施应对发现的安全问题。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="10"><h5>网络和系统安全管理</h5></td>
+        <td  colspan="3">应划分不同的管理员角色进行网络和系统的运维管理，明确各个角色的责任和权限。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应指定专门的部门或人员进行账户管理，对申请账户、建立账户、删除账户等进行控制。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应建立网络和系统安全管理制度，对安全策略、账户管理、配置管理、日志管理、日常管理、日常操作、升级与打补丁、口令更新周期等方面做出规定。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应制定重要设备的配置和操作手册，依据手册对设备进行安全配置和优化配置等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应详细记录运维操作日志，包括日常巡检工作、运行维护记录、参数的设置和修改等内容。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应指定专门的部门或人员对日志、监测和报警数据等进行分析、统计，及时发现可疑行为。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应严格控制变更性运维，经过审批后才可改变连接、安装系统组件或调整配置参数，操作过程中应保留不可更改的审计日志，操作结束后应同步更新配置信息库。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应严格控制运维工具的使用，经过审批后才可接入进行操作，操作过程中应保留不可更改的审计日志，操作结束后应删除工具中的敏感数据。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应严格控制远程运维的开通，经过审批后才可开通远程运维接口或通道，操作过程中应保留不可更改的审计日志，操作结束后立即关闭接口或通道。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应保证所有与外部的连接均得到授权和批准，应定期检查违反规定无线上网及其他违反网络安全策略的行为。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="4"><h5>恶意代码防范管理</h5></td>
+        <td  colspan="3">应提高所有用户的防恶意代码意识，对外来计算机或存储设备接入系统前进行恶意代码检查等；</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对恶意代码防范要求做出规定，包括防恶意代码软件的授权使用、恶意代码库升级、恶意代码的定期査杀等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应定期检查恶意代码库的升级情况，对截获的恶意代码进行及时分析处理。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应定期验证防范恶意代码攻击的技术措施的有效性。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="2"><h5>配置管理</h5></td>
+        <td  colspan="3">应记录和保存基本配置信息，包括网络拓扑结构、各个设备安装的软件组件、软件组件的版本和补丁信息、各个设备或软件组件的配置参数等；</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应将基本配置信息改变纳入变更范畴，实施对配置信息改变的控制，并及时更新基本配置信息库。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>密码管理</h5></td>
+        <td  colspan="3">应遵循密码相关国家标准和行业标准。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应使用国家密码管理主管部门认证核准的密码技术和产品。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应采用硬件密码模块实现密码运算和密钥管理。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>变更管理</h5></td>
+        <td  colspan="3">应明确变更需求,变更前根据变更需求制定变更方案，变更方案经过评审、审批后方可实施。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应建立变更的申报和审批控制程序，依据程序控制所有的变更，记录变更实施过程。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应建立中止变更并从失败变更中恢复的程序，明确过程控制方法和人员职责。必要时对恢复过程进行演练。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>备份与恢复管理</h5></td>
+        <td  colspan="3">应识别需要定期备份的重要业务信息、系统数据及软件系统等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应规定备份信息的备份方式、备份频度、存储介质、保存期等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应根据数据的重要性和数据对系统运行的影响，制定数据的备份策略和恢复策略、备份程序和恢复程序等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="6"><h5>安全事件处置</h5></td>
+        <td  colspan="3">应及时向安全管理部门报告所发现的安全弱点和可疑事件。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应明确安全事件的报告和处置流程，规定安全事件的现场处理、事件报告和后期恢复的管理职责。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应制定安全事件报告和处置管理制度，明确不同安全事件的报告、处置和响应流程，规定安全事件的现场处理、事件报告和后期恢复的管理职责等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应在安全事件报告和响应处理过程中，分析和鉴定事件产生的原因，收集证据，记录处理过程，总结经验教训。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">对造成系统中断和造成信息泄漏的重大安全事件应采用不同的处理程序和报告程序。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应建立联合防护和应急机制，负责处置跨单位安全事件。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="5"><h5>应急预案管理</h5></td>
+        <td  colspan="3">应规定统一的应急预案框架，包括启动预案的条件、应急组织构成、应急资源保障、事后教育和培训等内容。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应制定重要事件的应急预案，包括应急处理流程、系统恢复流程等内容。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应定期对系统相关的人员进行应急预案培训，并进行应急预案的演练。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应定期对原有的应急预案重新评估，修订完善。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应建立重大安全事件的跨单位联合应急预案，并进行应急预案的演练。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="4"><h5>外包运维管理</h5></td>
+        <td  colspan="3">应确保外包运维服务商的选择符合国家的有关规定。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应与选定的外包运维服务商签订相关的协议，明确约定外包运维的范围、工作内容。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应保证选择的外包运维服务商在技术和管理方面均应具有按照等级保护要求开展安全运维工作的能力，并将能力要求在签订的协议中明确。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应在与外包运维服务商签订的协议中明确所有相关的安全要求，如可能涉及对敏感信息的访问、处理、存储要求，对IT基础设施中断服务的应急保障要求等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
         <td  colspan="3">√</td>
         <td  colspan="3">√</td>
     </tr>
