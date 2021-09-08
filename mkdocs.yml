@@ -57,7 +57,7 @@ nav:
   - 合规介绍:
     - 等级保护2.0: security/grade_protection.md
   - 常见问题:
-      - 解决云账号校验失败问题(Custodian): question/grade_protection.md
+      - 解决云账号校验失败问题(Custodian): question/account.md
       - 如何自定义规则(Custodian): question/rule.md
       - 自定义阿里云监控规则示例(Custodian): question/example.md
       - 自定义漏洞扫描规则(Nuclei): question/nuclei.md
