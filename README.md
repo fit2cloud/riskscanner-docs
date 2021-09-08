@@ -31,7 +31,7 @@ nav:
       - 使用流程: user_manual/process.md
       - 系统设置: user_manual/settings.md
       - 扫描规则: user_manual/rule.md
-      - 云账号: user_manual/grade_protection.md
+      - 云账号: user_manual/account.md
       - 扫描结果: user_manual/resource.md
       - 首页: user_manual/dashboard.md
   - 消息通知:
