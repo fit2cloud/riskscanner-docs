@@ -2150,7 +2150,7 @@
         <td  colspan="3">√</td>
     </tr>
     <tr>
-        <td  colspan="3" rowspan="279"><h3>云计算安全扩展要求</h3></td>
+        <td  colspan="3" rowspan="50"><h3>云计算安全扩展要求</h3></td>
         <td  colspan="3" rowspan="1"><h4>安全物理环境</h4></td>
         <td  colspan="3" rowspan="1"><h5>基础设施位置</h5></td>
         <td  colspan="3">应保证云计算基础设施位于中国境内。</td>
@@ -2518,6 +2518,532 @@
         <td  colspan="3" rowspan="1"><h4>安全运维管理</h4></td>
         <td  colspan="3" rowspan=1"><h5>云计算环境管理</h5></td>
         <td  colspan="3">云计算平台的运维地点应位于中国境内，境外对境内云计算平台实施运维操作应遵循国家相关规定。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="23"><h3>移动互联网安全扩展要求</h3></td>
+        <td  colspan="3" rowspan="1"><h4>安全物理环境</h4></td>
+        <td  colspan="3" rowspan="1"><h5>无线接入点的物理位置</h5></td>
+        <td  colspan="3">机房场地应选择在具有防震、防风和防雨等能力的建筑内。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="9"><h4>安全区域边界</h4></td>
+        <td  colspan="3" rowspan="1"><h5>边界防护</h5></td>
+        <td  colspan="3">应保证有线网络与无线网络边界之间的访问和数据流通过无线接入安全网关设备。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="2"><h5>访问控制</h5></td>
+        <td  colspan="3">无线接入设备应开启接入认证功能，并支持釆用认证服务器认证或国家密码管理机构批准的密码模块进行认证。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">无线接入设备应开启接入认证功能，并且禁止使用WEP方式进行认证，如使用口令，长度不小于8位字符。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="6"><h5>入侵防范</h5></td>
+        <td  colspan="3">应能够检测到非授权无线接入设备和非授权移动终端的接入行为。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应能够检测到针对无线接入设备的网络扫描、DDoS攻击、密钥破解、中间人攻击和欺骗攻击等行为。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应能够检测到无线接入设备的SSID广播、WPS等高风险功能的开启状态。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应禁用无线接入设备和无线接入网关存在风险的功能，如:SSID广播、WEP认证等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应禁止多个AP使用同一个认证密钥。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应能够阻断非授权无线接入设备或非授权移动终端。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="8"><h4>安全计算环境</h4></td>
+        <td  colspan="3" rowspan="3"><h5>移动终端管控</h5></td>
+        <td  colspan="3">应保证移动终端安装、注册并运行终端管理客户端软件。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">移动终端应接受移动终端管理服务端的设备生命周期管理、设备远程控制，如：远程锁定、远程擦除等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应保证移动终端只用于处理指定业务。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="5"><h5>移动应用管控</h5></td>
+        <td  colspan="3">应具有选择应用软件安装，运行的功能。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应只允许可靠证书签名的应用软件安装和运行。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应只允许指定证书签名的应用软件安装和运行。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应具有软件白名単功能，应能根据白名单控制应用软件安装、运行。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应具有接受移动终端管理服务端推送的移动应用软件管理策略，并根据该策略对软件实施管控的能力。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="4"><h4>安全建设管理</h4></td>
+        <td  colspan="3" rowspan="2"><h5>移动应用软件采购</h5></td>
+        <td  colspan="3">应保证移动终端安装、运行的应用软件来自可靠分发渠道或使用可靠证书签名。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应保证移动终端安装、运行的应用软件由指定的开发者开发。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="2"><h5>移动应用软件开发</h5></td>
+        <td  colspan="3">应对移动业务应用软件开发者进行资格审查。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应保证开发移动业务应用软件的签名证书合法性。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="1"><h4>安全运维管理</h4></td>
+        <td  colspan="3" rowspan="1"><h5>配置管理</h5></td>
+        <td  colspan="3">应建立合法无线接入设备和合法移动终端配置库，用于对非法无线接入设备和非法移动终端的识别。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="21"><h3>物联网安全扩展要求</h3></td>
+        <td  colspan="3" rowspan="4"><h4>安全物理环境</h4></td>
+        <td  colspan="3" rowspan="4"><h5>感知节点设备物理防护</h5></td>
+        <td  colspan="3">感知节点设备所处的物理环境应不对感知节点设备造成物理破坏，如挤压、强振动。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">感知节点设备在工作状态所处物理环境应能正确反映环境状态（如温湿度传感器不能安装在阳光直射区域）。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">感知节点设备在工作状态所处物理环境应不对感知节点设备的正常工作造成影响，如强干扰、阻挡屏蔽等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">关键感知节点设备应具有可供长时间工作的电力供应（关键网关节点设备应具有持久稳定的电力供应能力）。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h4>安全区域边界</h4></td>
+        <td  colspan="3" rowspan="1"><h5>接入控制</h5></td>
+        <td  colspan="3">应保证只有授权的感知节点可以接入。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="2"><h5>入侵防范</h5></td>
+        <td  colspan="3">应能够限制与感知节点通信的目标地址，以避免对陌生地址的攻击行为。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应能够限制与网关节点通信的目标地址，以避免对陌生地址的攻击行为。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="11"><h4>安全计算环境</h4></td>
+        <td  colspan="3" rowspan="3"><h5>感知节点设备安全</h5></td>
+        <td  colspan="3">应保证只有授权的用户可以对感知节点设备上的软件应用进行配置或变更。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应具有对其连接的网关节点设备（包括读卡器）进行身份标识和鉴别的能力。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应具有对其连接的其他感知节点设备（包括路由节点）进行身份标识和鉴别的能力。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="4"><h5>网关节点设备安全</h5></td>
+        <td  colspan="3">应具备对合法连接设备（包括终端节点、路由节点、数据处理中心）进行标识和鉴别的能力。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应具备过滤非法节点和伪造节点所发送的数据的能力。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">授权用户应能够在设备使用过程中对关键密钥进行在线更新。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">授权用户应能够在设备使用过程中对关键配置参数进行在线更新。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="2"><h5>抗数据重放</h5></td>
+        <td  colspan="3">应能够鉴别数据的新鲜性，避免历史数据的重放攻击。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应能够鉴别历史数据的非法修改，避免数据的修改重放攻击。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="2"><h5>数据融合处理</h5></td>
+        <td  colspan="3">应对来自传感网的数据进行数据融合处理，使不同种类的数据可以在同一个平台被使用。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对不同数据之间的依赖关系和制约关系等进行智能处理，如一类数据达到某个门限时可以影响对另一类数据采集终端的管理指令。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h4>安全运维管理</h4></td>
+        <td  colspan="3" rowspan="3"><h5>感知节点管理</h5></td>
+        <td  colspan="3">应指定人员定期巡视感知节点设备、网关节点设备的部署环境，对可能影响感知节点设备、网关节点设备正常工作的环境异常进行记录和维护。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对感知节点设备、网关节点设备入库、存储、部署、携带、维修、丢失和报废等过程作出明确规定，并进行全程管理。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应加强对感知节点设备、网关节点设备部署环境的保密性管理，包括负责检查和维护的人员调离工作岗位应立即交还相关检查工具和检查维护记录等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="25"><h3>工业控制系统安全扩展</h3></td>
+        <td  colspan="3" rowspan="2"><h4>安全物理环境</h4></td>
+        <td  colspan="3" rowspan="2"><h5>室外控制设备物理防护</h5></td>
+        <td  colspan="3">室外控制设备应放置于釆用铁板或其他防火材料制作的箱体或装置中并紧固；箱体或装置具 有透风、散热、防盗、防雨和防火能力等。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">室外控制设备放置应远离强电磁干扰、强热源等环境，如无法避免应及时做好应急处置及检修，保证设备正常运行。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="6"><h4>安全通信网络</h4></td>
+        <td  colspan="3" rowspan="5"><h5>网络架构</h5></td>
+        <td  colspan="3">工业控制系统与企业其他系统之间应划分为两个区域，区域间应采用技术隔离手段。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">工业控制系统与企业其他系统之间应划分为两个区域，区域间应采用单向的技术隔离手段。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">工业控制系统与企业其他系统之间应划分为两个区域，区域间应采用符合国家或行业规定的专用产品实现单向安全隔离。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">工业控制系统内部应根据业务特点划分为不同的安全域，安全域之间应采用技术隔离手段。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">涉及实时控制和数据传输的工业控制系统，应使用独立的网络设备组网，在物理层面上实现与其他数据网及外部公共信息网的安全隔离。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="1"><h5>通信传输</h5></td>
+        <td  colspan="3">在工业控制系统内使用广域网进行控制指令或相关数据交换的应釆用加密认证技术手段实现身份认证、访问控制和数据加密传输。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="10"><h4>安全区域边界</h4></td>
+        <td  colspan="3" rowspan="2"><h5>访问控制</h5></td>
+        <td  colspan="3">应在工业控制系统与企业其他系统之间部署访问控制设备，配置访问控制策略，禁止任何穿越区域 边界的E-Mail,Web,Telnet,Rlogin,FTP等通用网络服务。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应在工业控制系统内安全域和安全域之间的边界防护机制失效时，及时进行报警。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="3"><h5>拨号使用控制</h5></td>
+        <td  colspan="3">工业控制系统确需使用拨号访问服务的，应限制具有拨号访问权限的用户数量，并釆取用户身份鉴别和访问控制等措施。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">拨号服务器和客户端均应使用经安全加固的操作系统，并采取数字证书认证、传输加密和访问控制等措施。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">涉及实时控制和数据传输的工业控制系统禁止使用拨号访问服务。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="5"><h5>无线使用控制</h5></td>
+        <td  colspan="3">应对所有参与无线通信的用户（人员、软件进程或者设备）提供唯一性标识和鉴别；</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对无线连接的授权、监视以及执行使用进行限制。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对所有参与无线通信的用户（人员、软件进程或者设备）进行授权以及执行使用进行限制。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应对无线通信采取传输加密的安全措施，实现传输报文的机密性保护。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">对采用无线通信技术进行控制的工业控制系统，应能识别其物理环境中发射的未经授权的无线设备，报告未经授权试图接入或干扰控制系统的行为。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="5"><h4>安全计算环境</h4></td>
+        <td  colspan="3" rowspan="5"><h5>控制设备安全</h5></td>
+        <td  colspan="3">控制设备自身应实现相应级别安全通用要求提出的身份鉴别、访问控制和安全审计等安全要求，如受条件限制控制设备无法实现上述要求，应由其上位控制或管理设备实现同等功能或通过管理手段控制。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应在经过充分测试评估后，在不影响系统安全稳定运行的情况下对控制设备进行补丁更新、固件更新等工作。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应关闭或拆除控制设备的软盘驱动、光盘驱动、USB接口、串行口或多余网口等，确需保留的应通过相关的技术措施实施严格的监控管理。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应使用专用设备和专用软件对控制设备进行更新。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3">应保证控制设备在上线前经过安全性检测，避免控制设备固件中存在恶意代码程序。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="2"><h4>安全建设管理</h4></td>
+        <td  colspan="3" rowspan="1"><h5>产品采购和使用</h5></td>
+        <td  colspan="3">工业控制系统重要设备应通过专业机构的安全性检测后方可采购使用。</td>
+        <td  colspan="3"></td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+        <td  colspan="3">√</td>
+    </tr>
+    <tr>
+        <td  colspan="3" rowspan="1"><h5>外包软件开发</h5></td>
+        <td  colspan="3">应在外包开发合同中规定针对开发单位、供应商的约束条款，包括设备及系统在生命周期内有关保密、禁止关键技术扩散和设备行业专用等方面的内容。</td>
         <td  colspan="3"></td>
         <td  colspan="3">√</td>
         <td  colspan="3">√</td>
