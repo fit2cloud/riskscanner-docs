@@ -1,7 +1,7 @@
 
 ### 安全合规(Prowler 规则)
 
-> Github 项目地址：https://github.com/toniblyx/prowler
+> Github 项目地址：https://github.com/riskscanner/prowler
  
 #### 一、Prowler 是什么
 

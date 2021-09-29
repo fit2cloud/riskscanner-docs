@@ -1,7 +1,7 @@
 
 ### 漏洞扫描(Nuclei 规则)
 
-> Github 项目地址：https://github.com/projectdiscovery/nuclei
+> Github 项目地址：https://github.com/riskscanner/nuclei
  
 > Github 模板项目地址：https://github.com/projectdiscovery/nuclei-templates
 
