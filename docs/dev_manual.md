@@ -78,6 +78,13 @@ run.mode=local
 
 #### 运行后端服务
 
+> 后端maven仓库需要下载的jar包(暂未开放的包)：
+
+- openstack4j：[.m2/repository/com/fit2cloud/openstack4j.zip](https://cdn0-download-offline-installer.fit2cloud.com/riskscanner/.m2/repository/com/fit2cloud/openstack4j.zip)
+- openstack4j-parent：[.m2/repository/com/fit2cloud/openstack4j-parent.zip](https://cdn0-download-offline-installer.fit2cloud.com/riskscanner/.m2/repository/com/fit2cloud/openstack4j-parent.zip)
+- openstack4j-core：[.m2/repository/com/fit2cloud/openstack4j-core.zip](https://cdn0-download-offline-installer.fit2cloud.com/riskscanner/.m2/repository/com/fit2cloud/openstack4j-core.zip)
+- vmware：[.m2/repository/com/vmware/vmware.zip](https://cdn0-download-offline-installer.fit2cloud.com/riskscanner/.m2/repository/com/vmware/vmware.zip)
+
 在启动配置中添加 Spring Boot 启动项，直接启动 Spring Boot 项目即可
 
 ![server-start](./img/quickstart/start.png)
